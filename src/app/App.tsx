@@ -1,6 +1,6 @@
-import { useState } from 'react';
 import './App.css';
 import { createTheme, MantineProvider } from '@mantine/core';
+import Home from '../pages/Home/Home';
 
 const theme = createTheme({
   fontFamily: 'Montserrat, sans-serif',
@@ -8,7 +8,11 @@ const theme = createTheme({
 });
 
 function App() {
-  return <MantineProvider theme={theme}>hffh</MantineProvider>;
+  return (
+    <MantineProvider theme={theme}>
+      <Home />
+    </MantineProvider>
+  );
 }
 
 export default App;
