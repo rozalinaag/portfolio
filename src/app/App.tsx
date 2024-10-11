@@ -4,6 +4,8 @@ import Home from '../pages/Home/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import React from 'react';
 import NotFound from '../pages/NotFound/NotFound';
+import Projects from '../pages/Projects/Projects';
+import Project from '../pages/Projects/Project/Project';
 
 const theme = createTheme({
   fontFamily: 'Montserrat, sans-serif',
@@ -15,6 +17,14 @@ const router = createBrowserRouter([
     path: '/',
     element: <Home />,
     errorElement: <NotFound />,
+  },
+  {
+    path: '/projects',
+    element: <Projects />,
+  },
+  {
+    path: '/projects/:projectId',
+    element: <Project />,
   },
 ]);
 
