@@ -6,13 +6,29 @@ export default function Header() {
   return (
     <nav className={css.header}>
       <div className={classNames('content', css.content)}>
-        <Link to="/">About me</Link>
+        <Link to="/" className={css.title}>
+          Rozalina Agisheva
+        </Link>
         <ul>
           <li>
-            <Link to="/projects">My projects</Link>
+            <Link className={css.links} to="/projects">
+              Experience
+            </Link>
           </li>
           <li>
-            <Link to="/contacts">Contacts</Link>
+            <Link className={css.links} to="/projects">
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link className={css.links} to="/contacts">
+              Contacts
+            </Link>
+          </li>
+          <li>
+            <Link className={classNames(css.links, css.resume)} to="/resume">
+              Resume
+            </Link>
           </li>
         </ul>
       </div>
