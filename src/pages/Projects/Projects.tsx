@@ -1,3 +1,5 @@
+import Layout from '../../app/Layout/Layout';
+
 export default function Projects() {
-  return <div>projects</div>;
+  return <Layout>projects</Layout>;
 }
