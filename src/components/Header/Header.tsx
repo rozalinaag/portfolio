@@ -5,7 +5,7 @@ import classNames from 'classnames';
 export default function Header() {
   return (
     <nav className={css.header}>
-      <div className={classNames('content', css.content)}>
+      <div className={classNames(css.content)}>
         <Link to="/" className={css.title}>
           Rozalina Agisheva
         </Link>
