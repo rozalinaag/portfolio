@@ -1,5 +1,6 @@
 :root {
-  --color-text: #48BEA7;
+  --color-text: #48bea7;
+  --font-text: 'Roboto Mono', monospace;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -18,9 +19,9 @@ a {
   text-decoration: inherit;
 }
 
-.content{
- width: 1280px;
- margin: 0 auto
+.content {
+  width: 1280px;
+  margin: 0 auto;
 }
 
 body {

@@ -12,11 +12,14 @@ export default function Home() {
           <div className={css.whatToDo}>I build things for the web.</div>
 
           <div className={css.description}>
-            I’m a <b>software engineer</b> specializing in creating
-            user-friendly websites. For more than <b>three years</b>, I worked
-            at <b>Magnit</b>, a large retail company, where I developed{' '}
-            <b>corporate portals</b>.<br /> My bachelor's degree in{' '}
-            <b>Computer Science</b> has significantly contributed to my work.
+            I’m a <b className={css.accent}>software engineer</b> specializing
+            in creating user-friendly websites. For more than{' '}
+            <b className={css.accent}>three years</b>, I worked at{' '}
+            <b className={css.accent}>Magnit</b>, a large retail company, where
+            I developed <b className={css.accent}>corporate portals</b>.<br />{' '}
+            My bachelor's degree in{' '}
+            <b className={css.accent}>Computer Science</b> has significantly
+            contributed to my work.
           </div>
 
           <div className={css.passion}>

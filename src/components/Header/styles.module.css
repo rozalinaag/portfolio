@@ -5,6 +5,7 @@
 .content {
   display: flex;
   justify-content: space-between;
+  font-family: var(--font-text);
   align-items: center;
   height: 100%;
   padding: 0 80px;
