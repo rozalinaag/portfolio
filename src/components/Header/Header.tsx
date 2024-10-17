@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom';
 import css from './styles.module.css';
 import classNames from 'classnames';
+import icon from '/hacker.png';
 
 export default function Header() {
   return (
     <nav className={css.header}>
       <div className={classNames(css.content)}>
         <Link to="/" className={css.title}>
+          <img src={icon} alt="" width={30} />
           Rozalina Agisheva
         </Link>
         <ul>

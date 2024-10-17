@@ -1,13 +1,14 @@
 .content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: white;
   --whatToDoColor: #8892b0;
 }
 
 .title {
   color: var(--color-text);
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   font-weight: 600;
   font-family: var(--font-text);
 }
@@ -43,18 +44,19 @@
 }
 
 .avatar {
-  width: 500px;
+  width: 400px;
   z-index: 100;
   position: relative;
 }
 
 .picture {
   position: relative;
+  --size-square: 400px;
 }
 
 .square {
-  width: 500px;
-  height: 500px;
+  width: var(--size-square);
+  height: var(--size-square);
   border: 1px solid var(--whatToDoColor);
   position: absolute;
   top: 30px;
@@ -63,8 +65,8 @@
 }
 
 .square2 {
-  width: 500px;
-  height: 500px;
+  width: var(--size-square);
+  height: var(--size-square);
   border: 1px solid var(--color-text);
   position: absolute;
   top: 10px;
