@@ -1,5 +1,5 @@
 import css from './styles.module.css';
-import avatar from './img/ready.jpg';
+import avatar from '../img/ready.jpg';
 
 export default function AboutMe() {
   return (
