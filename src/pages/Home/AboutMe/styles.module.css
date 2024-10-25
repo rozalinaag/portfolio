@@ -7,6 +7,11 @@
 
 .wrapper {
   --whatToDoColor: #8892b0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-bottom: 40px;
 }
 
 .name {
