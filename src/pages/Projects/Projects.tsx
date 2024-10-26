@@ -1,10 +1,10 @@
 import Layout from '../../app/Layout/Layout';
-import { projects } from './data';
+// import { projects } from './data';
 
 export default function Projects() {
   return (
     <Layout>
-      <div>
+      <div id="projects">
         Projects: map projects
         <div>
           <div>

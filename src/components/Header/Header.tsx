@@ -13,19 +13,19 @@ export default function Header() {
         </Link>
         <ul>
           <li>
-            <Link className={css.links} to="/projects">
+            <a className={css.links} href="#experience">
               Experience
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className={css.links} to="/projects">
+            <a className={css.links} href="#projects">
               Projects
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className={css.links} to="/contacts">
+            <a className={css.links} href="#contacts">
               Contacts
-            </Link>
+            </a>
           </li>
           <li>
             <Link className={classNames(css.links, css.resume)} to="/resume">

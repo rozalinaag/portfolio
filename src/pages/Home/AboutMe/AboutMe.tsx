@@ -3,7 +3,7 @@ import avatar from '../img/ready.jpg';
 
 export default function AboutMe() {
   return (
-    <div className={css.wrapper}>
+    <div id="aboutMe" className={css.wrapper}>
       <div>
         <div className={css.title}>Hi, my name is</div>
         <div className={css.name}>Rozalina Agisheva.</div>

@@ -2,7 +2,7 @@ import css from './styles.module.css';
 
 export default function Contacts() {
   return (
-    <div className={css.wrapper}>
+    <div id="contacts" className={css.wrapper}>
       <div>Contact me:</div>
       <div>
         <div>
