@@ -28,9 +28,14 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <Link className={classNames(css.links, css.resume)} to="/resume">
+            <a
+              className={classNames(css.links, css.resume)}
+              href="/Rozalina_Agisheva_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Resume
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
