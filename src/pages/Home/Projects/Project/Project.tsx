@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import Layout from '../../../app/Layout/Layout';
+import Layout from '../../../../app/Layout/Layout';
 import { useEffect } from 'react';
 
 export default function Project() {
