@@ -1,3 +1,9 @@
+import Card from './Card/Card';
+
 export default function Experience() {
-  return <div>experience</div>;
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 }
