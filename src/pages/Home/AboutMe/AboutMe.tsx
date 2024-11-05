@@ -8,10 +8,10 @@ export default function AboutMe() {
         <div className={css.title}>Hi, my name is</div>
         <div className={css.name}>Rozalina Agisheva.</div>
 
-        <div className={css.whatToDo}>Frontend Engineer.</div>
+        <div className={css.whatToDo}>Software Engineer.</div>
 
         <div className={css.description}>
-          I’m a <b className={css.accent}>frontend engineer</b> specializing in
+          I’m a <b className={css.accent}>software engineer</b> specializing in
           creating user-friendly websites. For more than{' '}
           <b className={css.accent}>three years</b>, I worked at{' '}
           <b className={css.accent}>Magnit</b>, a large retail company, where I
