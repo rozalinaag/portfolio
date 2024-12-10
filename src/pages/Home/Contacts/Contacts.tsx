@@ -1,4 +1,5 @@
 import css from './styles.module.css';
+import git from './img/git.svg';
 
 export default function Contacts() {
   return (
@@ -6,40 +7,33 @@ export default function Contacts() {
       <div>Contact me:</div>
       <div>
         <div>
-          <img alt="Linkedin" />{' '}
+          <img className={css.icon} alt="Linkedin" />{' '}
           <a href="https://www.linkedin.com/in/rozalinaag/">
             www.linkedin.com/in/rozalinaag/
           </a>
         </div>
 
         <div>
-          <img alt="Git" />{' '}
+          <img className={css.icon} src={git} alt="Git" />{' '}
           <a href="https://github.com/rozalinaag">
             https://github.com/rozalinaag
           </a>
         </div>
 
         <div>
-          <img alt="mail" />
+          <img className={css.icon} alt="mail" />
           <a href="mailto:rozalina.ag@gmail.com">rozalina.ag@gmail.com</a>
         </div>
 
         <div>
-          <img alt="number" />
+          <img className={css.icon} alt="number" />
           <div>+13477309924</div>
         </div>
 
         <div>
-          <img alt="leetcode" />
+          <img className={css.icon} alt="leetcode" />
           <a href="https://leetcode.com/u/rozalinaag/">
             leetcode.com/u/rozalinaag/
-          </a>
-        </div>
-
-        <div>
-          <img alt="youtube" />
-          <a href="https://www.youtube.com/@Rozalinaag/videos">
-            YouTube Channel about my life
           </a>
         </div>
       </div>
