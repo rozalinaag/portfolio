@@ -13,7 +13,6 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 750px;
   scroll-behavior: smooth;
 }
 
@@ -31,6 +30,10 @@ a {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+html {
+  font-size: clamp(7px, 1.5vw, 18px);
 }
 
 body {
