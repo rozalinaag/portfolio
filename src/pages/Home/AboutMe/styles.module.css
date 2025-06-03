@@ -99,7 +99,7 @@
 }
 
 /* Responsive Typography & Layout Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .wrapper {
     padding: 40px 2rem;
   }
