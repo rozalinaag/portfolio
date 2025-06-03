@@ -1,43 +1,38 @@
 import css from './styles.module.css';
-import git from './img/git.svg';
-import { LinkedinLogo } from '@phosphor-icons/react'
+import { LinkedinLogo, GithubLogo, Envelope, Phone, Code } from '@phosphor-icons/react';
 
 export default function Contacts() {
   return (
-    <div id="contacts" className={css.wrapper}>
-      <div>Contact me:</div>
-      <div>
-        <div>
-          <LinkedinLogo className={css.icon} />
-          <a href="https://www.linkedin.com/in/rozalinaag/">
-            www.linkedin.com/in/rozalinaag/
-          </a>
-        </div>
-
-        <div>
-          <img className={css.icon} src={git} alt="Git" />{' '}
-          <a href="https://github.com/rozalinaag">
-            https://github.com/rozalinaag
-          </a>
-        </div>
-
-        <div>
-          <img className={css.icon} alt="mail" />
-          <a href="mailto:rozalina.ag@gmail.com">rozalina.ag@gmail.com</a>
-        </div>
-
-        <div>
-          <img className={css.icon} alt="number" />
-          <div>+13477309924</div>
-        </div>
-
-        <div>
-          <img className={css.icon} alt="leetcode" />
-          <a href="https://leetcode.com/u/rozalinaag/">
-            leetcode.com/u/rozalinaag/
-          </a>
-        </div>
-      </div>
-    </div>
+      <section id="contacts" className={css.wrapper}>
+        <span className={css.label}>Contact me:</span>
+        <ul className={css.list}>
+          <li className={css.item}>
+            <LinkedinLogo className={css.icon} weight="fill" />
+            <a href="https://www.linkedin.com/in/rozalinaag/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </li>
+          <li className={css.item}>
+            <GithubLogo className={css.icon} weight="fill" />
+            <a href="https://github.com/rozalinaag" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </li>
+          <li className={css.item}>
+            <Envelope className={css.icon} weight="fill" />
+            <a href="mailto:rozalina.ag@gmail.com">Email</a>
+          </li>
+          <li className={css.item}>
+            <Phone className={css.icon} weight="fill" />
+            <a href={""}>347 730 9924</a>
+          </li>
+          <li className={css.item}>
+            <Code className={css.icon} weight="fill" />
+            <a href="https://leetcode.com/u/rozalinaag/" target="_blank" rel="noopener noreferrer">
+              LeetCode
+            </a>
+          </li>
+        </ul>
+      </section>
   );
 }

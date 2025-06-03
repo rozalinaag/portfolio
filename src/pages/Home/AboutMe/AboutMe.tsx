@@ -12,9 +12,9 @@ export default function AboutMe() {
 
         <div className={css.description}>
           I’m a <b className={css.accent}>software engineer</b> specializing in
-          creating user-friendly websites. For more than{' '}
-          <b className={css.accent}>three years</b>, I worked at{' '}
-          <b className={css.accent}>Magnit</b>, a large retail company, where I
+          creating user-friendly websites. I have more than{' '}
+          <b className={css.accent}>six years of experience</b>. My experience included {' '}
+          <b className={css.accent}>Magnit company</b>, a large retail company, where I
           developed <b className={css.accent}>corporate portals</b>.<br /> My
           bachelor's degree in <b className={css.accent}>Computer Science</b>{' '}
           has significantly contributed to my work.

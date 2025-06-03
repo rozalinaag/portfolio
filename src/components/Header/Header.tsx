@@ -9,7 +9,9 @@ export default function Header() {
       <div className={classNames(css.content)}>
         <Link to="/" className={css.title}>
           <img src={icon} alt="" width={30} />
-          Rozalina Agisheva
+          <div>
+            Rozalina Agisheva
+          </div>
         </Link>
         <ul>
           <li>
@@ -30,11 +32,11 @@ export default function Header() {
           <li>
             <a
               className={classNames(css.links, css.resume)}
-              href="/Rozalina_Agisheva_Resume.pdf"
+              href="https://www.linkedin.com/in/rozalinaag/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Resume
+              LinkedIn
             </a>
           </li>
         </ul>

@@ -26,7 +26,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       style={{
         left: `${cursorPosition.x}px`,
         top: `${cursorPosition.y}px`,
-        background: `radial-gradient(600px at ${cursorPosition.x}px ${cursorPosition.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`,
+        background: `radial-gradient(600px at ${cursorPosition.x}px ${cursorPosition.y}px, rgba(29, 78, 216, 0.15), transparent 80%)`
       }}
     >
       <Header />

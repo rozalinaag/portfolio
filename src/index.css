@@ -13,15 +13,23 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 650px;
 }
 
 a {
   text-decoration: inherit;
+  word-break: unset ;
 }
 
 .content {
-  width: 1280px;
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
+  padding: 0 1rem; /* horizontal padding on smaller screens */
+  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 body {
