@@ -1,0 +1,81 @@
+.wrapper {
+    padding: 20px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.heading {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #ccd6f6;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #8892b0;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.05);
+    align-items: center; /* Center all content horizontally */
+    text-align: center;  /* Center text like title and description */
+}
+
+.imageWrapper {
+    width: 120px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image {
+    width: 120px;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ccd6f6;
+    margin: 0;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.description {
+    color: #8892b0;
+    font-size: 14px;
+}
+
+.tech span {
+    display: inline-block;
+    background-color: #112240;
+    color: #ccd6f6;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.link {
+    color: #64ffda;
+    font-size: 14px;
+    margin-top: 10px;
+    text-decoration: underline;
+}

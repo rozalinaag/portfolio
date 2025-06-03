@@ -24,7 +24,7 @@ export default function Contacts() {
           </li>
           <li className={css.item}>
             <Phone className={css.icon} weight="fill" />
-            <a href={""}>347 730 9924</a>
+            <a href={""}>3477309924</a>
           </li>
           <li className={css.item}>
             <Code className={css.icon} weight="fill" />
